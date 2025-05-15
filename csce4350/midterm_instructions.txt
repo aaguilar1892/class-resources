@@ -1,0 +1,32 @@
+
+    The instructions are posted as an ungraded assignment so that you may read them and raise any questions in advance.
+
+
+
+    Mid-Term Test       CSCE 4350,  University of North Texas
+
+
+    Instructions:
+
+    Ensure that your code is not in comments; the file should be able to
+    run without error as a script in PSQL.
+
+    Complete the tasks in this file, save it, test it, then upload.
+    Please don't "ZIP" the file.
+    
+    The mid-term is weighted at 300 points.
+    
+    Any schema mentioned are assumed to be in the database db50 to which you are connected.  (You don't have to show making the DB connection.)  In all other cases, follow strictly the database conventions we have demonstrated; these conventions include dropping objects before create, naming conventions for tables and fields (you may choose whether to append "_pk" and "_fk" to keys... programmers have different opinions on that), nnamed table constraints, choose reasonable data types, demonstrate a professional format.
+    
+    You may use your notes and the GCP virtual machine to run your code.  You may use the PostgreSQL documentation; however, do not use blogs because they're usually wrong!  Do not use coding concepts that were not introduced in the class.
+    
+    *****
+    This is an on-line, asynchronous class.  The test will become available at 1730 (5:30 PM) on Monday, 3/3/2025 and will be due at 1730 on Friday, 3/7/2025 (meaning, you must begin by then).  After 50 years in the classroom, I have learned that it doesn't matter when I make it due or how much I jump up & down... someone will always manage to miss the deadline.  The test will lock at at 2359 (one minute to midnight) *sharp* on Friday, 3/7/2025... and if you miss that target, you shouldn't be in an online class!
+    
+    The test is timed by its timestamp out and the sumbission time.  It is a 3-hour test, which should be plenty.  Do not access the test until you're ready to begin.  The test does not lock at at three hours; however, there will be a penalty for a significant time infraction.
+    
+    I will deliver instructions on Zoom and remain on Zoom Monday evening from 1730 until 2020, you are encouraged (but not required) to take the test then.
+    
+    Any use of AI or an entity outside of the testing environment (i.e.: a friend) will be reported... enough said on that matter.
+
+    

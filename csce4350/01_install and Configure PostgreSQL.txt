@@ -1,0 +1,102 @@
+01_install and Configure PostgreSQL.txt
+
+# Install PostgresQL
+# Let's review how to install PostgresQL:
+
+sudo apt update
+sudo apt install --assume-yes postgresql postgresql-contrib
+
+# Turn off the annoying pager:
+sudo bash -c 'echo "\pset pager 0" > ~/.psqlrc'
+
+# first time login
+
+sudo -i -u postgres
+psql
+
+-- you are in as the admin user.  It is *critical* to secure this
+-- login!  Of course, on a dedicated machine such as our GCP, it's
+-- not a big deal... just a good habit!
+
+ALTER USER postgres PASSWORD 'Blu3Ski3s';
+
+-- Typically, we will not sudo to user postgres; instead, we
+-- will create our own database user with admin privileges.
+
+-- First, we will create our database user.  This will be your
+-- gmail account name (which is also the user of the GCP virtual
+-- machine.)  My gmail is sws.000125@gmail.com, so my user is
+-- sws_000125  (Your user will be different, and any '.' are
+-- replaced with '_'.)
+
+CREATE USER sws_000125 WITH PASSWORD 'Blu3Ski3s';
+
+-- In order to login to postgresQL, there must exist a database
+-- named the same as your login and owned by that user:
+
+CREATE DATABASE sws_000125 WITH OWNER sws_000125;
+
+-- Give your user all rights:
+ALTER ROLE sws_000125 SUPERUSER;
+
+\q    -- quit
+
+
+# exit sudo ("exit" also works)
+logout
+
+# PostgreSQL version 16 is now installed.
+
+
+
+
+
+# Now, from the Linux prompt, you may log into PostgresQL directly:
+
+psql
+
+-- you are now in postgresQL as your default user and connected to
+-- the database with your user name... and that is an admin account, (SUPERUSER)
+-- PostgreSQL is now fully functional.
+
+-- ---------------------------------------------------------------------------
+
+-- Configure database users to test php connection (to be configured in step 5)
+
+CREATE USER jqpublic WITH PASSWORD 'Blu3Ski3s'; -- Create a public user
+CREATE DATABASE jqpublic WITH OWNER jqpublic; -- give aforementioned user a home database
+CREATE GROUP public_users WITH USER jqpublic; -- Create a group and put the public user(s) in it.
+                                              -- We may add or remove users.
+
+-- The group public_users represents users of a web page whereby we provide public access'
+-- to our database.
+
+-- The user "jqpublic" is one such user.
+
+-- Quit SQL
+\q
+
+
+# --------------------------------------------
+    # PostgreSQL cheat sheet
+    sudo systemctl is-active postgresql
+    sudo systemctl is-enabled postgresql
+    sudo systemctl status postgresql
+    sudo pg_isready
+
+    # bounce PSQL
+    sudo systemctl restart postgresql
+
+    # Uninstall PostgreSQL to start over
+    sudo apt-get --purge remove postgresql postgresql-*
+
+    # highly recommended!!!
+    sudo passwd postgres
+    # Give this one a strong password!  Many admins disable login.
+# --------------------------------------------
+
+# Next:  Installing pgadmin
+https://www.tecmint.com/install-postgresql-and-pgadmin-in-ubuntu/
+
+
+# Cumulative Time = 23 minutes

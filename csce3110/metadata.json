@@ -1,0 +1,28 @@
+{
+  "name": "CSCE 3110",
+  "description": "Data Structures and Algorithms course repository",
+  "course_details": {
+    "course_code": "CSCE 3110",
+    "institution": "University of North Texas",
+    "semester": "Fall 2024",
+    "topics": [
+      "Data Structures",
+      "Algorithms",
+      "Trees",
+      "Hashing",
+      "Sorting",
+      "Graphs"
+    ]
+  },
+  "content": {
+    "assignments": 6,
+    "quizzes": 4,
+    "lectures": 10
+  },
+  "repository_structure": {
+    "assignments": "Programming and written assignments",
+    "lectures": "Lecture slides and notes",
+    "quizzes": "Course quizzes and assessments"
+  },
+  "last_updated": "2025-04-06"
+}

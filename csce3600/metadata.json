@@ -1,0 +1,291 @@
+{
+    "name": "CSCE 3600 Systems Programming",
+    "description": "This repository contains materials for the CSCE 3600 Systems Programming course, including assignments, lessons, and resources.",
+    "version": "1.0",
+    "course_details": {
+        "course_code": "CSCE 3600",
+        "course_name": "Principles of Systems Programming",
+        "instructor": "Satya Vrvt Parupudi",
+        "semester": "Fall 2024"
+    },
+    "topics": [
+        "Linux Overview",
+        "Regular Expressions",
+        "sed and gawk",
+        "Bash Scripting",
+        "Processes and Threads",
+        "Interprocess Communication (IPC)",
+        "Compilers and Compilation",
+        "Python Programming"
+    ],
+    "repository_url": "https://github.com/aaguilar1892/csce3600.git",
+    "csce3600": {
+     "description": "The root folder containing materials for the CSCE 3600 Systems Programming course. It includes an exam cheatsheet and subfolders for minor assignments, lessons, recitations, and resources.",
+     "files": [
+      "exam1_cheatsheet.docx"
+     ],
+     "subfolders": [
+      "minor1",
+      "minor2",
+      "minor3",
+      "minor4",
+      "minor5",
+      "lessons",
+      "rec01",
+      "rec02",
+      "rec03",
+      "rec04",
+      "rec05",
+      "rec06",
+      "rec07",
+      "rec08",
+      "rec09",
+      "rec10",
+      "resources"
+     ],
+     "file_counts": {
+      "docx": 1
+     }
+    },
+    "csce3600/minor1": {
+     "description": "Contains files for Minor Assignment 1, focusing on the `sed` and `gawk` utilities. Includes text files for angles and phone numbers, a CSV file with salary data, and the assignment description document.",
+     "files": [
+      "angles.txt",
+      "Minor 1.docx",
+      "phone.txt",
+      "salaries.csv"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "txt": 2,
+      "docx": 1,
+      "csv": 1
+     }
+    },
+    "csce3600/minor2": {
+     "description": "Contains materials for Minor Assignment 2, which involves writing a bash script to monitor user logins and logouts. Includes the assignment description and the corresponding bash script (`minor2.sh`).",
+     "files": [
+      "Minor 2.docx",
+      "minor2.sh"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "docx": 1,
+      "sh": 1
+     }
+    },
+    "csce3600/minor3": {
+     "description": "Includes files for Minor Assignment 3, concentrating on C programming with threads, mutexes, and condition variables, illustrating the producer-consumer paradigm. Contains the assignment description, the final C code (`minor3.c`), and the initial unedited C code (`minor3-unedited.c`).",
+     "files": [
+      "Minor 3 Threads.pdf",
+      "minor3-unedited.c",
+      "minor3.c"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "pdf": 1,
+      "c": 2
+     }
+    },
+    "csce3600/minor4": {
+     "description": "Holds files for Minor Assignment 4, focused on Linux socket programming in C to develop a UDP ping utility. Includes the assignment description, the server C code (`minor4svr.c`), and the client C code (`minor4cli.c`).",
+     "files": [
+      "Minor 4 - Socket programming.pdf",
+      "minor4cli.c",
+      "minor4svr.c"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "pdf": 1,
+      "c": 2
+     }
+    },
+    "csce3600/minor5": {
+     "description": "Contains files for Minor Assignment 5, centered on Python programming for data processing. Tasks include reading a TSV file and enabling user searches by city or zip code. Includes the assignment description, the Python script (`minor5.py`), and the data file (`minor5.tsv`).",
+     "files": [
+      "Minor 5.docx",
+      "minor5.py",
+      "minor5.tsv"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "docx": 1,
+      "py": 1,
+      "tsv": 1
+     }
+    },
+    "csce3600/lessons": {
+     "description": "Contains lecture slides (PowerPoint presentations) covering various systems programming topics: Linux overview, regular expressions, sed/gawk, bash scripting, processes, threads, Interprocess Communication (IPC) Parts 1 and 2, compilers and compilation, and Python programming.",
+     "files": [
+      "1 SystemsProgrammingOverview Aug 19.pptx",
+      "2 linuxOverview Aug 26.pptx",
+      "3 regex.pptx",
+      "4 sed Gawk.pptx",
+      "5 bash.pptx",
+      "6 processes.pptx",
+      "7 threads (1).pptx",
+      "8 IPC Part 1 in class.pptx",
+      "9 IPC Part 2 (1).pptx",
+      "10 compilers and compilation.pptx",
+      "11 python.pptx"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "pptx": 11
+     }
+    },
+    "csce3600/rec01": {
+     "description": "Includes files for Recitation Assignment 1, focusing on C programming to display the decimal, hexadecimal, and binary representations of an ASCII character using bitwise operations. Contains the C source code (`rec01.c`) and the assignment PDF.",
+     "files": [
+      "rec01.c",
+      "recitation1.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "c": 1,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec02": {
+     "description": "Contains files for Recitation Assignment 2, involving C programming to swap two integers using only bitwise XOR operators, without needing a third variable. Includes the C code (`rec02.c`) and the assignment PDF.",
+     "files": [
+      "rec02.c",
+      "recitation2.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "c": 1,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec03": {
+     "description": "Holds materials for Recitation Assignment 3, focused on practicing `sed` and `gawk` commands for text manipulation and report generation. Includes a typescript file (`rec03.txt`) recording the terminal session and the assignment PDF.",
+     "files": [
+      "rec03.txt",
+      "recitation3.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "txt": 1,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec04": {
+     "description": "Contains files for Recitation Assignment 4, focusing on writing basic bash scripts. Includes scripts for user greetings (`rec04A.sh`), executing user commands (`rec04B.sh`), a number guessing game (`rec04C.sh`), and the assignment PDF.",
+     "files": [
+      "rec04A.sh",
+      "rec04B.sh",
+      "rec04C.sh",
+      "recitation4.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "sh": 3,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec05": {
+     "description": "Includes files for Recitation Assignment 5, involving bash scripting with functions, arrays, and loops to curve quiz grades. Contains the main script (`rec05.sh`), an example script (`recitation5-example.sh`), and the assignment PDF.",
+     "files": [
+      "rec05.sh",
+      "recitation5-example.sh",
+      "recitation5.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "sh": 2,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec06": {
+     "description": "Contains files for Recitation Assignment 6, dealing with C programming concepts of parent-child processes, specifically demonstrating the creation of zombie and orphan processes. Includes C code for zombie (`rec06A.c`) and orphan (`rec06B.c`) process creation, along with the assignment PDF.",
+     "files": [
+      "rec06A.c",
+      "rec06B.c",
+      "recitation6.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "c": 2,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec07": {
+     "description": "Holds files for Recitation Assignment 7, focusing on C programming with pthreads and implementing mutex locks for thread synchronization. Includes the completed C code (`rec07.c`), the initial unedited code (`rec07-unedited.c`), and the assignment PDF.",
+     "files": [
+      "rec07-unedited.c",
+      "rec07.c",
+      "recitation7-1.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "c": 2,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec08": {
+     "description": "Contains files for Recitation Assignment 8, involving C programming with pipes to implement multiple redirections (input and output) and command pipelines. Includes C code for double redirection (`rec08A.c`), C code for pipelines (`rec08B.c`), a sample input file (`input.txt`), and the assignment PDF.",
+     "files": [
+      "input.txt",
+      "rec08A.c",
+      "rec08B.c",
+      "recitation8.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "txt": 1,
+      "c": 2,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec09": {
+     "description": "Includes files for Recitation Assignment 9, focused on implementing TCP socket connections in C over the INET domain. Contains server (`rec09svr.c`) and client (`rec09cli.c`) C code, along with the assignment PDF.",
+     "files": [
+      "rec09cli.c",
+      "rec09svr.c",
+      "recitation9.pdf"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "c": 2,
+      "pdf": 1
+     }
+    },
+    "csce3600/rec10": {
+     "description": "Contains files for Recitation Assignment 10, related to compiler construction, specifically using `flex` to generate a lexical analyzer (scanner). Includes the generated C code (`lex.yy.c`), the assignment PDF, the flex input file (`scanner.lex`, saved as `scanner.txt`), and a relevant C header file (`zcalc.h`).",
+     "files": [
+      "lex.yy.c",
+      "recitation10.pdf",
+      "scanner.txt",
+      "zcalc.h"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "c": 1,
+      "pdf": 1,
+      "txt": 1,
+      "h": 1
+     }
+    },
+    "csce3600/resources": {
+     "description": "Contains a collection of reference materials and documentation. Includes PDFs on Shell builtin commands, Signals in Linux, Scheduling of tasks, IO multiplexing and the Select function, a Git cheat sheet, the Bash reference manual, and a sed command practice worksheet. Also includes DOCX files covering writing reentrancy-safe signal handler code and answers to the sed worksheet. Additionally, there is a PowerPoint presentation on GitLab and team development.",
+     "files": [
+      "IO multiplexing and Select function.pdf",
+      "Scheduling of tasks.pdf",
+      "Shell builtin commands.pdf",
+      "Signals in Linux.pdf",
+      "Writing reentrancy safe signal handler code.docx",
+      "bash manual.pdf",
+      "git-cheat-sheet-1.pdf",
+      "gitLabTeam Development.pptx",
+      "sed command practice work sheet.pdf",
+      "sed worksheet answers.docx"
+     ],
+     "subfolders": [],
+     "file_counts": {
+      "pdf": 7,
+      "docx": 2,
+      "pptx": 1
+     }
+    }
+   }
